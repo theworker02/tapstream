@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/tapstream",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tap HTML/Markdown stream fragments safely for docs pipelines.",
+  "bin": {
+    "tapstream": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/tapstream.git"
+  },
+  "homepage": "https://theworker02.github.io/tapstream/",
+  "keywords": [
+    "tap",
+    "stream",
+    "markup",
+    "cli",
+    "toolkit"
+  ]
+}
